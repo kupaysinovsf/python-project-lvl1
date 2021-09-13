@@ -8,8 +8,8 @@ def is_even():
     print('Welcome to the Brain Games')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!\nAnswer "yes" if the number is even, otherwise answer "no".')
-    for i in range(0,3):
-        random_number = randint(1,100)
+    for i in range(0, 3):
+        random_number = randint(1, 100)
         print(f'Question: {random_number}')
         answer = prompt.string('Your answer: ')
         if random_number % 2 == 0:
